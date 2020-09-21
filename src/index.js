@@ -2,6 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // Step 1. Import react-router functions
 import { BrowserRouter as Router, Route ,NaveLink} from 'react-router-dom';
+const link = {
+  width: '100px',
+  padding: '12px',
+  margin: '0 6px 6px',
+  background: 'blue',
+  textDecoration: 'none',
+  color: 'white',
+}
 const Home = () => {
   return (
     <div>
